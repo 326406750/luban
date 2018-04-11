@@ -1,5 +1,5 @@
 # luban
-在Curzibn/Luban项目上，去除Gif图片压缩，使之更符合个人需求
+在Curzibn/Luban项目上迭代，增加功能：Gif图片不压缩。相关[代码](https://github.com/zwping/luban/blob/master/luBanLibrary/src/main/java/top/zibin/luban/Checker.java)
 
 [![JtiPack](https://jitpack.io/v/win.zwping/Luban.svg)](https://jitpack.io/#win.zwping/Luban)
 [![JavaDoc](https://img.shields.io/badge/JavaDoc-Reference-orange.svg)](https://jitpack.io/com/github/zwping/Luban/v1.0/javadoc/)
@@ -27,8 +27,6 @@ dependencies {
     implementation 'win.zwping:Luban:v1.+' //增加Luban POM相关信息
 }
 ```
-
-> 去除Gif压缩的相关[代码](https://github.com/zwping/luban/blob/master/luBanLibrary/src/main/java/top/zibin/luban/Checker.java)
 
 -----
 

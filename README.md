@@ -11,5 +11,19 @@
 > 使用方法：
 
 1. root build: 
+``` gradle
+allprojects {
+ repositories {
+    jcenter()
+    maven { url "https://jitpack.io" } //增加JitPack仓库地址
+ }
+}
+```
 
 2. app build: 
+
+``` gradle
+dependencies {
+    implementation 'win.zwping:Luban:v1.+'
+}
+```

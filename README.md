@@ -24,6 +24,12 @@ allprojects {
 
 ``` gradle
 dependencies {
-    implementation 'win.zwping:Luban:v1.+'
+    implementation 'win.zwping:Luban:v1.+' //增加Luban POM相关信息
 }
 ```
+
+> 去除Gif压缩的相关[代码](https://github.com/zwping/luban/blob/master/luBanLibrary/src/main/java/top/zibin/luban/Checker.java)
+
+-----
+
+###### 原项目[地址](https://github.com/Curzibn/Luban)

@@ -24,7 +24,7 @@ allprojects {
 
 ``` gradle
 dependencies {
-    implementation 'win.zwping:Luban:v1.1' //增加Luban POM相关信息
+    implementation 'win.zwping:Luban:1.1.1' //增加Luban POM相关信息
 }
 ```
 

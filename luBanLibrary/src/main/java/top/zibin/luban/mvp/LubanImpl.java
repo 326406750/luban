@@ -49,6 +49,7 @@ public class LubanImpl implements ILuban {
 
                     @Override
                     public void onError(Throwable e) {
+                        e.printStackTrace();
                         listener.onCompressError();
                     }
                 }).launch();
@@ -69,6 +70,7 @@ public class LubanImpl implements ILuban {
 
             @Override
             public void onError(Throwable e) {
+                e.printStackTrace();
                 listener.onCompressError();
             }
         }).launch();
